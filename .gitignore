@@ -1,0 +1,5 @@
+# standard php gitignore
+
+# Ignore vendor directory
+/vendor
+.env

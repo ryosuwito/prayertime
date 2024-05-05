@@ -1,0 +1,24 @@
+{
+    "name": "ryosuwito/usea",
+    "description": "test for php developer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Ryosuwito\\Usea\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ryosuwito",
+            "email": "ryosuwito@gmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^3.1",
+        "symfony/cache": "^7.0",
+        "doctrine/dbal": "^4.0",
+        "symfony/dotenv": "^7.0",
+        "fzaninotto/faker": "^1.5",
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
